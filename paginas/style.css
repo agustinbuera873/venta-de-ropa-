@@ -1,0 +1,8 @@
+/*estilo para el footer*/
+@media query (max-width: 768px) 
+    .productos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
