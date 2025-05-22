@@ -1,0 +1,36 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header {
+  animation: fadeIn 1.5s ease-in-out;
+}
+body {
+  overflow-x: hidden; /* Elimina el scroll horizontal */
+}
+
+.container {
+  padding: 0 15px;
+}
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'nav';
+@import 'animations';
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  @include flex-center;
+}

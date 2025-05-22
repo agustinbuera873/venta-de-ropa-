@@ -1,0 +1,225 @@
+/* Estilos generales para todas las páginas */
+* {
+    box-sizing: border-box;
+}
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #070404;
+}
+
+/* Estilos para el encabezado */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para la navegación */
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #007bff; /* Cambia el color al pasar el cursor */
+}
+.contactos{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.contactos a {
+    margin: 0 0.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfafa;
+}
+
+header {
+    background-color: #0e0a0a;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+/*estilos para el encabezado de redes sociales*/
+.redes-sociales h2 {
+    color: #fff;
+    margin-right: 1rem;
+}
+.redes-sociales a {
+    margin: 0 0.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.productos {
+    background-color: #bb0b0b;
+    border: 1px solid #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.productos img {
+    max-width: 100%;
+    height: auto;
+}
+
+.productos button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #0e0808;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#carrito {
+    margin-top: 2rem;
+}
+
+#carrito-items {
+    list-style: none;
+    padding: 0;
+}
+
+#carrito-items li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+.padding-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    padding: 20px;
+}
+.productos-img {
+    max-width: 50%; /* Ajusta el ancho máximo */
+    height: auto; /* Mantiene la proporción */
+}
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+/* Estilos para la sección de productos */
+.producto-ul {
+    list-style-type: none;
+    padding: 0;
+    color: #333;
+}
+.producto-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0e0808;
+    padding: auto;
+}
+/* Estilo para organizar las tarjetas horizontalmente */
+.row {
+    display: flex; /* Activa Flexbox */
+    flex-wrap: nowrap; /* Evita que las tarjetas se ajusten a una nueva fila */
+    overflow-x: auto; /* Permite desplazamiento horizontal si las tarjetas no caben */
+    gap: 20px; /* Espaciado entre las tarjetas */
+}
+
+.card {
+    flex: 0 0 auto; /* Asegura que las tarjetas mantengan su tamaño */
+    width: 300px; /* Ajusta el ancho de las tarjetas */
+}
+.producto-img {
+    max-width: 200px; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra (opcional) */
+    margin: 10px; /* Espaciado entre imágenes */
+}
+
+.card-img-top {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 200px; /* Limita la altura máxima de la imagen */
+    object-fit: cover; /* Ajusta la imagen para que se recorte si es necesario */
+}
